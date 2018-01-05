@@ -16,7 +16,7 @@ Tested with CUDA 8.0.
 
 ```
 nvprof -o foo.nvvp your_program
-nvprof2json foo.nvvp > foo.json
+python nvprof2json foo.nvvp.py > foo.json
 # Open foo.json in chrome://tracing
 ```
 
